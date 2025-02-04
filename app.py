@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import tensorflow as tf
 from PIL import Image
-import cv2
 
 # Load the trained model
 model = tf.keras.models.load_model("pneumonia_model.h5")
